@@ -251,3 +251,33 @@ main .cont-cards .card-melopido:hover img{
 main .cont-cards .card-melopido:hover::before{
     height: 0;
 }
+
+
+/* Responsive */
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    nav .navbar-brand img{
+        height: 58px;
+    }
+
+    nav button.navbar-toggler{
+        border: 1px solid #fff;
+    }
+    nav button i{
+        color: var(--yellow);
+    }
+    nav .collapse{
+        padding-left: 0;
+    }
+    main .cont-cards{
+        padding-left: 0;
+    }
+    main .cont-cards .card-melopido{
+        max-width: 80%;
+        margin: 15px auto;
+
+    }
+    main .cont-cards .right{
+        padding-top: 0;
+    }
+}
