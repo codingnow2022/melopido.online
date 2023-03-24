@@ -183,6 +183,7 @@ main .cont-stadisticas .icono::after{
 main .cont-stadisticas h3{
     font-size: 32px;
     font-weight: 700;
+    color: var(--background-color);
 }
 
 main .cont-stadisticas p{
