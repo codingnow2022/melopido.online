@@ -47,7 +47,7 @@ nav.bg-melopido{
     padding: 4px 0;
 }
 
-nav .collapse .navbar-nav .nav-link{
+nav #navbarNav .navbar-nav .nav-link{
     color: #fff;
     font-weight: 300;
     font-size: 20px;
@@ -57,39 +57,39 @@ nav .navbar-brand img{
     height: 70px;
 }
 
-nav .collapse{
+nav #navbarNav{
     padding-left: 10%;
     width: 100%;
     justify-content: flex-end;
 }
 
-nav .collapse .menu-general li{
+nav #navbarNav .menu-general li{
     margin: 0 10px;
 }
 
-nav .collapse .menu-general a{
+nav #navbarNav .menu-general a{
     border-bottom: 1px solid transparent;
     transition: .4s;
     display: block;
 }
 
-nav .collapse .menu-general a.active, nav .collapse .menu-general a:hover{
+nav #navbarNav .menu-general a.active, nav #navbarNav .menu-general a:hover{
     border-bottom: 1px solid var(--yellow);
     color: var(--yellow);
 }
 
-nav .collapse .menu-user{
+nav #navbarNav .menu-user{
     margin-left: 10px;
     padding-left: 20px;
     border-left: 1px solid #756e6e;
 }
 
-nav .collapse .menu-user li{
+nav #navbarNav .menu-user li{
     margin: 0px 4px;
     min-width: 140px;
     text-align: center;
 }
-nav .collapse .menu-user a.nav-link{
+nav #navbarNav .menu-user a.nav-link{
     border: 1px solid #fff;
     border-radius: 40px;
     /* background: linear-gradient(210deg, var(--orange), var(--pink), var(--purple)); */
@@ -101,7 +101,7 @@ nav .collapse .menu-user a.nav-link{
     display: block;
 }
 
-nav .collapse .menu-user a:hover{
+nav #navbarNav .menu-user a:hover{
     
     background: var(--pink);
 }
@@ -111,6 +111,7 @@ main {
     position: relative;
     height: 98vh;
     padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 main .cont-carousel{
@@ -266,8 +267,12 @@ main .cont-cards .card-melopido:hover::before{
     nav button i{
         color: var(--yellow);
     }
-    nav .collapse{
+    nav #navbarNav{
         padding-left: 0;
+    }
+    main{
+        padding-bottom: 120px;
+        height: auto;
     }
     main .cont-cards{
         padding-left: 0;
@@ -279,5 +284,14 @@ main .cont-cards .card-melopido:hover::before{
     }
     main .cont-cards .right{
         padding-top: 0;
+    }
+    nav #navbarNav .menu-user{
+        padding-left: 0;
+        border-left: 0;
+        border-top: 1px solid #756e6e;
+        padding-top: 10px;
+    }
+    nav #navbarNav .menu-user li{
+        margin: 10px 4px;
     }
 }
