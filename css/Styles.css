@@ -260,6 +260,22 @@ main .cont-cards .card-melopido:hover::before{
     nav .navbar-brand img{
         height: 58px;
     }
+    header nav{
+        position: fixed !important;
+        top: 20px;
+        left: 2%;
+        z-index: 999;
+
+    }
+    header nav::before{
+        width: 104%;
+        height: 20px;
+        top: -20px;
+        left: 0;
+        content: "";
+        position: absolute;
+        background: #f1f4f6;
+    }
 
     nav button.navbar-toggler{
         border: 1px solid #fff;
@@ -273,7 +289,7 @@ main .cont-cards .card-melopido:hover::before{
     main{
         padding-bottom: 120px;
         height: auto;
-        padding-top: 30px;
+        padding-top: 90px;
     }
     main .cont-cards{
         padding-left: 0;
@@ -296,6 +312,6 @@ main .cont-cards .card-melopido:hover::before{
         margin: 10px 4px;
     }
     main .cont-carousel h2{
-        font-size: 40px;
+        font-size: 38px;
     }
 }
