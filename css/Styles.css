@@ -256,7 +256,7 @@ main .cont-cards .card-melopido:hover::before{
 
 /* Responsive */
 
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 990px){
     nav .navbar-brand img{
         height: 58px;
     }
