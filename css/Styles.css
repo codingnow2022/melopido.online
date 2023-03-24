@@ -265,7 +265,9 @@ main .cont-cards .card-melopido:hover::before{
         top: 20px;
         left: 2%;
         z-index: 999;
-
+        left: 0;
+        width: 100%;
+        border-radius: 0;
     }
     header nav::before{
         width: 104%;
