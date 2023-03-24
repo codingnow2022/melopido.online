@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --font-texts: font-family: 'Ubuntu', sans-serif;
+    --font-titles: font-family: 'Montserrat', sans-serif;
+    --orange: #dd8832;
+    --yellow: #f7ee40;
+    --pink: #c41f66;
+    --purple: #4c3f94;
+    --background-color: #4c3f94;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f1f4f6;
+}
+
+h1,h2,h3,h4,h5,h6,button,label,th{
+    font-family: var(--font-titles);
+}
+
+p,input,textarea,li,select,td{
+    font-family: var(--font-texts);
+}
+
+header{
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    
+}
+
+header nav{
+    width: 96%;
+    margin: 0 auto;
+    border-radius:24px ;
+}
+
+nav.bg-melopido{
+    background: var(--background-color);
+    color: #fff;
+    padding: 4px 0;
+}
+
+nav .collapse .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: var(--font-texts);
+}
+nav .navbar-brand img{
+    height: 70px;
+}
+
+nav .collapse{
+    padding-left: 10%;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav .collapse .menu-general li{
+    margin: 0 10px;
+}
+
+nav .collapse .menu-general a{
+    border-bottom: 1px solid transparent;
+    transition: .4s;
+    display: block;
+}
+
+nav .collapse .menu-general a.active, nav .collapse .menu-general a:hover{
+    border-bottom: 1px solid var(--yellow);
+    color: var(--yellow);
+}
+
+nav .collapse .menu-user{
+    margin-left: 10px;
+    padding-left: 20px;
+    border-left: 1px solid #756e6e;
+}
+
+nav .collapse .menu-user li{
+    margin: 0px 4px;
+    min-width: 140px;
+    text-align: center;
+}
+nav .collapse .menu-user a.nav-link{
+    border: 1px solid #fff;
+    border-radius: 40px;
+    /* background: linear-gradient(210deg, var(--orange), var(--pink), var(--purple)); */
+    /* background: var(--purple); */
+    background: var(--background-color);
+    transition: .5s;
+    padding: 6px 20px !important;
+    width: 100%;
+    display: block;
+}
+
+nav .collapse .menu-user a:hover{
+    
+    background: var(--pink);
+}
+
+main {
+    width: 100%;
+    position: relative;
+    height: 98vh;
+    padding-top: 60px;
+}
+
+main .cont-carousel{
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+main .cont-carousel h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+
+main .cont-carousel h2 b{
+    background: var(--background-color);
+    color: #fff;
+}
+
+main .cont-carousel p{
+    font-size: 22px;
+    color: #666;
+    font-weight: 300;
+}
+
+main a.btn-melopido{
+    background: var(--background-color);
+    color: #ffffff;
+    padding: 10px 50px;
+    font-size: 22px;
+    border-radius: 40px;
+    margin-top: 40px;
+    transition: .5s;
+}
+
+main a.btn-melopido i{
+    margin-left: 10px;
+}
+
+main a.btn-melopido:hover{
+    background: var(--pink);
+    color: #fff;
+}
+
+main .cont-stadisticas{
+    margin-top: 80px;
+}
+
+main .cont-stadisticas .icono{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+main .cont-stadisticas .icono i{
+    font-size: 26px;
+    color: var(--background-color);
+}
+
+main .cont-stadisticas .icono::after{
+    width: 80%;
+    height: 2px;
+    background: var(--background-color);
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 8%;
+}
+
+main .cont-stadisticas h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+main .cont-stadisticas p{
+    font-size: 16px;
+    color: #666;
+}
+main .cont-cards{
+    padding-left: 60px;
+}
+main .cont-cards .left{
+    padding-top: 160px;
+}
+main .cont-cards .right{
+    padding-top: 40px;
+}
+
+main .cont-cards .card-melopido{
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+    max-width: 274px;
+    max-height: 200px;
+    box-shadow: 0px 4px 10px -5px #c6c6c6;
+}
+
+main .cont-cards .card-melopido::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--background-color);
+    opacity: .8;
+    transition: .5s;
+}
+
+main .cont-cards .card-melopido img{
+    width: 110%;
+    transition: .5s;
+    z-index: 0;
+
+}
+main .cont-cards .card-melopido h3{
+    position: absolute;
+    z-index: 999;
+    bottom: 10px;
+    font-size: 20px;
+    left: 15px;
+    font-weight: 400;
+    z-index: 999;
+    color: #fff;
+    text-shadow: var(--background-color) 4px 0 4px;
+}
+
+main .cont-cards .card-melopido:hover{
+    box-shadow: 0 0 0 0 transparent;
+}
+main .cont-cards .card-melopido:hover img{
+ width: 120%;
+}
+
+main .cont-cards .card-melopido:hover::before{
+    height: 0;
+}
