@@ -373,7 +373,6 @@ footer a.redes:hover i{
 }
 #login .form-login form{
     text-align: left;
-    margin-top: 60px;
     max-width: 450px;
     margin: 0 auto;
     margin-top: 60px;
@@ -601,6 +600,16 @@ footer a.redes:hover i{
         border-radius: 30px;
     }
     .logo-responsive img{
-        width: 280px;
+        height: 58px;
+    }
+    #login .form-login h2{
+        font-size: 38px;
+
+    }
+    #login .form-login p{
+        font-size: 18px;
+    }
+    #login .form-login form{
+        margin-top: 30px;
     }
 }
