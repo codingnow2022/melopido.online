@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-:root{
+:root {
     --font-texts: font-family: 'Ubuntu', sans-serif;
     --font-titles: font-family: 'Montserrat', sans-serif;
     --orange: #dd8832;
@@ -13,24 +13,37 @@
     --filtro: #4c3f94da;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: #ffffff;
 }
 
-h1,h2,h3,h4,h5,h6,button,label,th{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+label,
+th {
     font-family: var(--font-titles);
 }
 
-p,input,textarea,li,select,td{
+p,
+input,
+textarea,
+li,
+select,
+td {
     font-family: var(--font-texts);
 }
 
-.btn-melopido{
+.btn-melopido {
     background: var(--background-color);
     color: #ffffff;
     padding: 10px 50px;
@@ -39,99 +52,109 @@ p,input,textarea,li,select,td{
     transition: .5s;
     max-width: 100%;
 }
-.btn-melopido:hover{
+
+.btn-melopido:hover {
     background: var(--pink);
     color: #fff;
 }
+
 .btn-melopido-b {
-    background: var(--purple2);
+    background: #8e8e8e;
     padding: 10px 50px;
     font-size: 22px;
     max-width: 100%;
     border-radius: 40px;
     color: #fff;
-    text-decoration: none;    
+    text-decoration: none;
     display: block;
     text-align: center;
     transition: .4s;
 }
 
-.btn-melopido-b:hover{
-    background: var(--purple);
+.btn-melopido-b:hover {
+    background: var(--purple2);
     color: #fff;
 }
 
-.control-melopido{
-    padding: 12px 40px;
-    font-size: 18px;
+.control-melopido {
+    padding: 10px 20px;
+    font-size: 16px;
     border-radius: 15px;
+    border: 1px solid #d9d9d9;
+
 }
-.control-melopido:focus,.control-melopido:active{
+
+.control-melopido:focus,
+.control-melopido:active {
     box-shadow: 0 0 0 transparent;
     border: 1px solid var(--background-color);
 }
-header{
+
+header {
     width: 100%;
     position: relative;
     padding-top: 30px;
-    
+
 }
 
-header nav{
+header nav {
     width: 96%;
     margin: 0 auto;
-    border-radius:24px ;
+    border-radius: 24px;
 }
 
-nav.bg-melopido{
+nav.bg-melopido {
     background: var(--background-color);
     color: #fff;
     padding: 4px 0;
 }
 
-nav #navbarNav .navbar-nav .nav-link{
+nav #navbarNav .navbar-nav .nav-link {
     color: #fff;
     font-weight: 300;
     font-size: 20px;
     font-family: var(--font-texts);
 }
-nav .navbar-brand img{
+
+nav .navbar-brand img {
     height: 70px;
 }
 
-nav #navbarNav{
+nav #navbarNav {
     padding-left: 10%;
     width: 100%;
     justify-content: flex-end;
 }
 
-nav #navbarNav .menu-general li{
+nav #navbarNav .menu-general li {
     margin: 0 10px;
 }
 
-nav #navbarNav .menu-general a{
+nav #navbarNav .menu-general a {
     border-bottom: 1px solid transparent;
     transition: .4s;
     display: block;
 }
 
-nav #navbarNav .menu-general a.active, nav #navbarNav .menu-general a:hover{
+nav #navbarNav .menu-general a.active,
+nav #navbarNav .menu-general a:hover {
     border-bottom: 1px solid var(--yellow);
     color: var(--yellow);
 }
 
-nav #navbarNav .menu-user{
+nav #navbarNav .menu-user {
     margin-left: 10px;
     padding-left: 20px;
     border-left: 1px solid #756e6e;
 }
 
-nav #navbarNav .menu-user li{
+nav #navbarNav .menu-user li {
     margin: 0px 4px;
     min-width: 140px;
     text-align: center;
 }
-nav #navbarNav .menu-user a.nav-link{
+
+nav #navbarNav .menu-user a.nav-link {
     border: 1px solid #fff;
     border-radius: 40px;
     /* background: linear-gradient(210deg, var(--orange), var(--pink), var(--purple)); */
@@ -143,8 +166,8 @@ nav #navbarNav .menu-user a.nav-link{
     display: block;
 }
 
-nav #navbarNav .menu-user a:hover{
-    
+nav #navbarNav .menu-user a:hover {
+
     background: var(--pink);
 }
 
@@ -160,12 +183,12 @@ main {
     margin-bottom: 130px;
 }
 
-main .cont-carousel{
+main .cont-carousel {
     padding-top: 40px;
     cursor: pointer;
 }
 
-main .cont-carousel h2{
+main .cont-carousel h2 {
     font-size: 48px;
     font-weight: 700;
     color: var(--background-color);
@@ -173,18 +196,18 @@ main .cont-carousel h2{
     margin-bottom: 40px;
 }
 
-main .cont-carousel h2 b{
+main .cont-carousel h2 b {
     background: var(--background-color);
     color: #fff;
 }
 
-main .cont-carousel p{
+main .cont-carousel p {
     font-size: 22px;
     color: #666;
     font-weight: 300;
 }
 
-main a.btn-melopido{
+main a.btn-melopido {
     background: var(--background-color);
     color: #ffffff;
     padding: 10px 50px;
@@ -194,30 +217,30 @@ main a.btn-melopido{
     transition: .5s;
 }
 
-main a.btn-melopido i{
+main a.btn-melopido i {
     margin-left: 10px;
 }
 
-main a.btn-melopido:hover{
+main a.btn-melopido:hover {
     background: var(--pink);
     color: #fff;
 }
 
-main .cont-stadisticas{
+main .cont-stadisticas {
     margin-top: 80px;
 }
 
-main .cont-stadisticas .icono{
+main .cont-stadisticas .icono {
     position: relative;
     margin-bottom: 20px;
 }
 
-main .cont-stadisticas .icono i{
+main .cont-stadisticas .icono i {
     font-size: 26px;
     color: var(--background-color);
 }
 
-main .cont-stadisticas .icono::after{
+main .cont-stadisticas .icono::after {
     width: 80%;
     height: 2px;
     background: var(--background-color);
@@ -227,27 +250,30 @@ main .cont-stadisticas .icono::after{
     right: 8%;
 }
 
-main .cont-stadisticas h3{
+main .cont-stadisticas h3 {
     font-size: 32px;
     font-weight: 700;
     color: var(--background-color);
 }
 
-main .cont-stadisticas p{
+main .cont-stadisticas p {
     font-size: 16px;
     color: #666;
 }
-main .cont-cards{
+
+main .cont-cards {
     padding-left: 60px;
 }
-main .cont-cards .left{
+
+main .cont-cards .left {
     padding-top: 160px;
 }
-main .cont-cards .right{
+
+main .cont-cards .right {
     padding-top: 40px;
 }
 
-main .cont-cards .card-melopido{
+main .cont-cards .card-melopido {
     overflow: hidden;
     border-radius: 20px;
     position: relative;
@@ -258,7 +284,7 @@ main .cont-cards .card-melopido{
     box-shadow: 0px 4px 10px -5px #c6c6c6;
 }
 
-main .cont-cards .card-melopido::before{
+main .cont-cards .card-melopido::before {
     width: 100%;
     height: 100%;
     content: "";
@@ -270,13 +296,14 @@ main .cont-cards .card-melopido::before{
     transition: .5s;
 }
 
-main .cont-cards .card-melopido img{
+main .cont-cards .card-melopido img {
     width: 110%;
     transition: .5s;
     z-index: 0;
 
 }
-main .cont-cards .card-melopido h3{
+
+main .cont-cards .card-melopido h3 {
     position: absolute;
     z-index: 999;
     bottom: 10px;
@@ -288,18 +315,19 @@ main .cont-cards .card-melopido h3{
     text-shadow: var(--background-color) 4px 0 4px;
 }
 
-main .cont-cards .card-melopido:hover{
+main .cont-cards .card-melopido:hover {
     box-shadow: 0 0 0 0 transparent;
 }
-main .cont-cards .card-melopido:hover img{
- width: 120%;
+
+main .cont-cards .card-melopido:hover img {
+    width: 120%;
 }
 
-main .cont-cards .card-melopido:hover::before{
+main .cont-cards .card-melopido:hover::before {
     height: 0;
 }
 
-footer{
+footer {
     z-index: -101;
     position: fixed;
     bottom: 0px;
@@ -309,27 +337,28 @@ footer{
     color: #fff;
 }
 
-footer .row-footer{
+footer .row-footer {
     align-items: center;
 }
 
-footer .logo-footer img{
+footer .logo-footer img {
     width: 200px;
 }
 
-footer p{
+footer p {
     margin-bottom: 0;
 }
-footer p a{
+
+footer p a {
     text-decoration: none;
     color: #fff;
 }
 
-footer p a:hover{
+footer p a:hover {
     text-decoration: underline;
 }
 
-footer a.redes i{
+footer a.redes i {
     font-size: 30px;
     color: #fff;
     transition: .4s;
@@ -340,76 +369,82 @@ footer a.redes {
     margin: 0 10px;
     transition: .4S;
 }
-footer a.redes:hover{
+
+footer a.redes:hover {
     transform: translateY(-4px);
 }
-footer a.redes:hover i{
+
+footer a.redes:hover i {
     color: var(--yellow);
 }
 
 /* LOGIN */
 
-#login{
+#login {
     width: 100%;
     min-height: 100vh;
 
 }
 
-#login .row-login{
+#login .row-login {
     display: flex;
 }
 
-#login .row-login .form-login{
+#login .row-login .form-login {
     width: 35%;
     padding: 6% 100px;
     text-align: center;
 }
 
-#login .form-login h2{
+#login .form-login h2 {
     color: var(--background-color);
     font-family: var(--font-titles);
     font-size: 48px;
     font-weight: 700;
 }
-#login .form-login form{
+
+#login .form-login form {
     text-align: left;
     max-width: 450px;
     margin: 0 auto;
     margin-top: 60px;
 }
-#login .form-login form label{
-    color: var(--background-color);
+
+#login .form-login form label {
+    color: var(--purple2);
     font-size: 18px;
 }
 
-#login .form-login p{
+#login .form-login p {
     font-size: 22px;
     color: #666;
     font-weight: 300;
 }
 
-#login .form-login .btn-melopido{
+#login .form-login .btn-melopido {
     width: 100%;
     margin-top: 20px;
     font-size: 20PX;
-    
+
 }
 
-#login form a.descripcion{
+#login form a.descripcion {
     display: block;
     text-align: right;
     color: var(--purple);
     margin-top: 5px;
 }
-#login .suscribirse{
+
+.suscribirse {
     width: 100%;
-    
+
     padding: 20px 0;
     border-top: 1px solid #c4c4c4;
     max-width: 450px;
     margin: 20px auto;
 }
-#login .suscribirse h3{
+
+#login .suscribirse h3 {
     font-size: 20px;
     font-family: var(--font-texts);
     color: #666;
@@ -417,10 +452,12 @@ footer a.redes:hover i{
     margin: 0;
     margin-bottom: 10px;
 }
-#login .row-login{
+
+#login .row-login {
     overflow: hidden;
 }
-#login .row-login .carousel-login{
+
+#login .row-login .carousel-login {
     width: 65%;
     min-height: 100vh;
     background: url("../img/login-bakcground-3.jpg");
@@ -430,16 +467,18 @@ footer a.redes:hover i{
     padding-top: 30px;
     position: relative;
 }
-#login .carousel-login .logo{
-    display: block;    
+
+#login .carousel-login .logo {
+    display: block;
     position: relative;
-    z-index: 9999;
+    z-index: 999;
 }
-#login .carousel-login .logo img{
+
+#login .carousel-login .logo img {
     max-width: 250px;
 }
 
-#login .carousel-login::after{
+#login .carousel-login::after {
     width: 100%;
     height: 100%;
     background: var(--filtro);
@@ -450,13 +489,13 @@ footer a.redes:hover i{
 
 }
 
-#login #carouselLoginIndicators{
+#login #carouselLoginIndicators {
     padding-top: 40%;
     position: relative;
     z-index: 999;
 }
 
-#login #carouselLoginIndicators .carousel-indicators{
+#login #carouselLoginIndicators .carousel-indicators {
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -464,7 +503,8 @@ footer a.redes:hover i{
     padding-left: 0;
     margin-left: 0;
 }
-#login #carouselLoginIndicators .carousel-indicators button{
+
+#login #carouselLoginIndicators .carousel-indicators button {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -472,7 +512,8 @@ footer a.redes:hover i{
     border: 1px solid #fff;
     margin-right: 10px;
 }
-#login #carouselLoginIndicators .carousel-indicators button.active{
+
+#login #carouselLoginIndicators .carousel-indicators button.active {
     background: #ffffff;
 }
 
@@ -488,13 +529,232 @@ footer a.redes:hover i{
     font-weight: 700;
 }
 
-#carouselLoginIndicators .carousel-item p{
+#carouselLoginIndicators .carousel-item p {
     color: #fff;
     font-size: 18px;
 
 }
 
-.logo-responsive{
+/* SUSCRIPCIÓN */
+
+
+#suscripcion {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#suscripcion .row-suscripcion {
+    display: flex;
+}
+
+#suscripcion .row-suscripcion .form-suscripcion {
+    width: 50%;
+    padding: 2% 100px;
+    text-align: left;
+}
+
+#suscripcion .form-suscripcion h2 {
+    color: var(--background-color);
+    font-family: var(--font-titles);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#suscripcion .form-suscripcion form {
+    text-align: left;
+    max-width: 750px;
+    margin-top: 30px;
+}
+
+#suscripcion .form-suscripcion form label {
+    color: #666;
+    font-size: 18px;
+}
+
+#suscripcion .form-suscripcion p {
+    font-size: 22px;
+    color: #666;
+    font-weight: 300;
+    max-width: 750px;
+}
+
+#suscripcion .form-suscripcion .btn-melopido {
+    width: 100%;
+    /* margin-top: 20px; */
+    font-size: 20px;
+    max-width: 320px;
+    margin: 20px auto;
+
+}
+
+#suscripcion form a.descripcion {
+    display: block;
+    text-align: right;
+    color: var(--purple);
+    margin-top: 5px;
+}
+
+.suscribirse {
+    width: 100%;
+
+    padding: 20px 0;
+    border-top: 1px solid #c4c4c4;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+#suscripcion .suscribirse h3 {
+    font-size: 20px;
+    font-family: var(--font-texts);
+    color: #666;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#suscripcion .suscribirse .btn-melopido-b {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#suscripcion .row-suscripcion {
+    overflow: hidden;
+}
+
+#suscripcion .row-suscripcion .carousel-suscripcion {
+    width: 50%;
+    min-height: 100vh;
+    background: url("../img/login-bakcground5.jpg");
+    background-size: cover;
+    background-position-x: right;
+    padding-left: 60px;
+    padding-top: 30px;
+    position: relative;
+}
+
+#suscripcion .carousel-suscripcion .logo {
+    display: block;
+    position: relative;
+    z-index: 999;
+}
+
+#suscripcion .carousel-suscripcion .logo img {
+    max-width: 250px;
+}
+
+#suscripcion .carousel-suscripcion::after {
+    width: 100%;
+    height: 100%;
+    background: var(--filtro);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+#suscripcion #carouselSuscripcionIndicators {
+    padding-top: 40%;
+    position: relative;
+    z-index: 999;
+}
+
+#suscripcion #carouselSuscripcionIndicators .carousel-indicators {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#suscripcion #carouselSuscripcionIndicators .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+
+#suscripcion #carouselSuscripcionIndicators .carousel-indicators button.active {
+    background: #ffffff;
+}
+
+#carouselSuscripcionIndicators .carousel-item {
+    padding-right: 320px;
+}
+
+#carouselSuscripcionIndicators .carousel-item h2 {
+    color: #ffffff;
+    font-family: var(--font-titles);
+    margin-bottom: 50px;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+#carouselSuscripcionIndicators .carousel-item p {
+    color: #fff;
+    font-size: 18px;
+
+}
+
+
+
+
+
+.modal .modal-dialog {
+    max-width: 1024px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.modal .modal-dialog .modal-header {
+    border-bottom: 0 solid transparent;
+    padding: 40px 50px 20px;
+}
+
+.modal .modal-dialog .modal-header h1.modal-title {
+    color: var(--purple2);
+    font-size: 30px !important;
+    font-weight: 700;
+}
+
+.modal .modal-dialog .modal-body {
+    padding: 0 50px 40px;
+}
+
+.modal .modal-dialog .modal-body h2 {
+    color: var(--purple2);
+    font-size: 22px;
+}
+
+
+
+.form-check.campo {
+    padding-left: 20px;
+}
+
+
+
+.form-check.campo .form-check-input {
+    margin-left: 0;
+    border: 1px solid #666;
+}
+
+.form-check.campo label {
+    margin-left: 12px;
+}
+
+.form-check.campo label a {
+    color: var(--purple);
+}
+
+
+
+
+.logo-responsive {
     display: none;
 }
 
@@ -502,11 +762,12 @@ footer a.redes:hover i{
 
 /* Responsive */
 
-@media screen and (min-width: 320px) and (max-width: 990px){
-    nav .navbar-brand img{
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    nav .navbar-brand img {
         height: 58px;
     }
-    header nav{
+
+    header nav {
         position: fixed !important;
         top: 20px;
         left: 2%;
@@ -515,7 +776,8 @@ footer a.redes:hover i{
         width: 100%;
         border-radius: 0;
     }
-    header nav::before{
+
+    header nav::before {
         width: 104%;
         height: 20px;
         top: -20px;
@@ -525,91 +787,150 @@ footer a.redes:hover i{
         background: #f1f4f6;
     }
 
-    nav button.navbar-toggler:focus{
+    nav button.navbar-toggler:focus {
         box-shadow: 0 0 0 0 transparent;
-         
+
     }
-    nav button.navbar-toggler{
+
+    nav button.navbar-toggler {
         border: 1px solid #fff;
     }
-    nav button i{
+
+    nav button i {
         color: var(--yellow);
     }
-    nav #navbarNav{
+
+    nav #navbarNav {
         padding-left: 0;
     }
-    main{
+
+    main {
         padding-bottom: 120px;
         height: auto;
         padding-top: 90px;
     }
-    main .cont-cards{
+
+    main .cont-cards {
         padding-left: 0;
     }
-    main .cont-cards .card-melopido{
+
+    main .cont-cards .card-melopido {
         max-width: 80%;
         margin: 15px auto;
 
     }
-    main .cont-cards .right{
+
+    main .cont-cards .right {
         padding-top: 0;
     }
-    nav #navbarNav .menu-user{
+
+    nav #navbarNav .menu-user {
         padding-left: 0;
         border-left: 0;
         border-top: 1px solid #756e6e;
         padding-top: 10px;
     }
-    nav #navbarNav .menu-user li{
+
+    nav #navbarNav .menu-user li {
         margin: 10px 4px;
     }
-    main .cont-carousel h2{
+
+    main .cont-carousel h2 {
         font-size: 38px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1180px){
-    #login .row-login .form-login{
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    #login .row-login .form-login {
         width: 55%;
         padding: 10% 30px;
     }
-    #login .row-login .carousel-login{
+
+    #login .row-login .carousel-login {
         width: 45%;
     }
-    #carouselLoginIndicators .carousel-item h2{
+
+    #carouselLoginIndicators .carousel-item h2 {
         font-size: 28px;
     }
-    #carouselLoginIndicators .carousel-item{
+
+    #carouselLoginIndicators .carousel-item {
         padding-right: 20px;
     }
-    
+
+
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
-    #login .row-login .carousel-login{
+@media screen and (min-width: 768px) and (max-width: 1330px) {
+    #suscripcion .row-suscripcion .form-suscripcion {
+        padding: 2% 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #login .row-login .carousel-login {
         display: none;
     }
-    #login .row-login .form-login{
+
+    #login .row-login .form-login,
+    #suscripcion .row-suscripcion .form-suscripcion {
         width: 100%;
-        padding: 10%;
+        padding: 0 10% 40px;
+        position: relative;
     }
-    .logo-responsive{
+
+    #login .row-login .form-login::before,
+    #suscripcion .row-suscripcion .form-suscripcion::before {
+        width: 200%;
+        height: 58px;
+        background: var(--purple);
+        left: -50%;
+        position: absolute;
+        content: "";
+    }
+
+
+    .logo-responsive {
         display: block;
         margin-bottom: 60px;
         background: var(--purple);
         border-radius: 30px;
+        text-align: center;
+        position: relative;
     }
-    .logo-responsive img{
+
+    .form-login {
+        position: relative;
+    }
+
+    .logo-responsive img {
         height: 58px;
     }
-    #login .form-login h2{
+    .modal .modal-dialog .modal-header,
+    .modal .modal-dialog .modal-body{
+        padding: 20px;
+    }
+    .modal .modal-dialog .modal-header h1.modal-title{
+        font-size: 24px !important;
+    }
+    #login .form-login h2 {
         font-size: 38px;
 
     }
-    #login .form-login p{
+
+    #login .form-login p {
         font-size: 18px;
     }
-    #login .form-login form{
+
+    #login .form-login form {
         margin-top: 30px;
+    }
+
+    #suscripcion .row-suscripcion .carousel-suscripcion {
+        display: none;
+    }
+
+    #suscripcion .row-suscripcion .form-suscripcion {
+        width: 100%;
     }
 }

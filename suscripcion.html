@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melopido | Suscripción</title>
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Styles.css">
+</head>
+
+<body>
+
+
+    <section id="suscripcion">
+        <div class="row-suscripcion">
+            <div class="form-suscripcion" data-aos="fade-left" data-aos-duration="1000">
+                <a href="index.html" class="logo-responsive"><img src="img/logo-large-color.png" alt=""></a>
+                <h2>Suscribirme</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis similique iure animi nam in
+                    laboriosam..</p>
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="tipoDoc" class="form-label">Tipo de documento:</label>
+                            <select class="form-select control-melopido" id="tipoDoc" name="tipoDoc">
+                                <option selected></option>
+                                <option value="1">CC</option>
+                                <option value="2">CE</option>
+                                <option value="3">PASAPORTE</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="identificacion" class="form-label">Identificacion:</label>
+                            <input type="number" class="form-control control-melopido" id="identificacion"
+                                name="identificacion">
+                            <!-- <a href="#" class="descripcion">¿Olvidaste tu contraseña?</a> -->
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="nombres" class="form-label">Nombres:</label>
+                            <input type="text" class="form-control control-melopido" id="nombres" name="nombres">
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="apellidos" class="form-label">Apellidos:</label>
+                            <input type="text" class="form-control control-melopido" id="apellidos" name="apellidos">
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control control-melopido" id="email" name="email">
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="telefeno" class="form-label">Teléfono:</label>
+                            <input type="number" class="form-control control-melopido" id="telefeno" name="telefeno">
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="genero" class="form-label">Género:</label>
+                            <select class="form-select control-melopido" id="tipoDoc" name="genero">
+                                <option selected></option>
+                                <option value="1">Femenino</option>
+                                <option value="2">Masculino</option>
+                                <option value="3">Otro</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="ciudad" class="form-label">Ciudad:</label>
+                            <input type="text" class="form-control control-melopido" id="ciudad" name="ciudad">
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="clave" class="form-label">Clave:</label>
+                            <input type="password" class="form-control control-melopido" id="clave" name="clave">
+                        </div>
+                        <div class="mb-3 col-lg-6 col-md-12">
+                            <label for="clave2" class="form-label">Confirmar Clave:</label>
+                            <input type="password" class="form-control control-melopido" id="clave2" name="clave2">
+                        </div>
+                        <div class="form-check campo mb-3 col-lg-12 col-md-12">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#terminosModal">Acepto Términos y
+                                    Condiciones</a>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex">
+                        <button type="submit" class="btn btn-melopido">Siguiente</button>
+
+                    </div>
+
+
+
+
+
+
+                </form>
+                <div class="suscribirse text-center">
+
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <a href="login.html" class="btn-melopido-b">Ingresar</a>
+                </div>
+            </div>
+            <div class="carousel-suscripcion">
+                <div class="row superior">
+                    <div class="col-md-12">
+                        <a href="index.html" class="logo" data-aos="fade-down" data-aos-duration="1000"><img
+                                src="img/logo-large-color.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div id="carouselSuscripcionIndicators" class="carousel slide" data-bs-ride="carousel"
+                    data-aos="fade-right" data-aos-duration="1000">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselSuscripcionIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselSuscripcionIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselSuscripcionIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h2>Cotiza, Compra y Ahorra con Melopido.online</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero! Enim, possimus, id
+                                maxime rem perspiciatis sunt perferendis vel in eius beatae iste deleniti a hic nam
+                                rerum maiores atque!</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h2>Cotiza, Compra y Ahorra con Melopido.online</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero! Enim, possimus, id
+                                maxime rem perspiciatis sunt perferendis vel in eius beatae iste deleniti a hic nam
+                                rerum maiores atque!</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h2>Cotiza, Compra y Ahorra con Melopido.online</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero! Enim, possimus, id
+                                maxime rem perspiciatis sunt perferendis vel in eius beatae iste deleniti a hic nam
+                                rerum maiores atque!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Modal Términos y Condiciones-->
+    <div class="modal fade" id="terminosModal" tabindex="-1" aria-labelledby="terminosModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="terminosModalLabel">Términos y Condiciones</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2>Lorem ipsum dolor sit.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, beatae? Mollitia quaerat
+                        qui nulla maiores ullam, vero, delectus culpa optio nihil temporibus ea pariatur, officia
+                        inventore soluta voluptatum sed quod quae dolore aliquid consequuntur ipsum quo minima!
+                        Veritatis, amet voluptatem!</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam animi eligendi voluptatum
+                        nobis iusto, expedita possimus quasi, dicta sequi asperiores, dolore eos assumenda!
+                        Exercitationem voluptas dolorem vero unde possimus blanditiis, distinctio laudantium. Distinctio
+                        eos voluptatum aliquid, doloribus dicta nulla blanditiis, numquam exercitationem dignissimos
+                        dolorum repudiandae hic labore quibusdam. Praesentium?
+                    </p>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odit deleniti dolorem fugiat
+                        ducimus unde exercitationem, sed quae ipsum eos, pariatur mollitia corporis totam molestiae
+                        iusto quos molestias maxime odio praesentium earum temporibus facere illo alias quaerat.
+                        Excepturi, a quo error beatae distinctio adipisci repellendus? Dolorum quos voluptate ut
+                        corrupti sit voluptatem, cupiditate cumque laborum quam? Incidunt, fuga nostrum. Adipisci omnis
+                        libero iure, alias eligendi asperiores quas eveniet dolores eaque corrupti, dolor magnam ad ut.
+                        Voluptas aut, ex, deleniti assumenda ipsam delectus consequatur expedita error debitis
+                        perspiciatis asperiores vel laboriosam incidunt quisquam quaerat libero accusamus. Facere harum
+                        odio necessitatibus exercitationem hic error eligendi tenetur aspernatur sint, accusamus
+                        perspiciatis, iste beatae sequi ullam rem minima delectus, a culpa sit voluptatibus accusantium?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam animi eligendi voluptatum
+                        nobis iusto, expedita possimus quasi, dicta sequi asperiores, dolore eos assumenda!
+                        Exercitationem voluptas dolorem vero unde possimus blanditiis, distinctio laudantium. Distinctio
+                        eos voluptatum aliquid, doloribus dicta nulla blanditiis, numquam exercitationem dignissimos
+                        dolorum repudiandae hic labore quibusdam. Praesentium?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam animi eligendi voluptatum
+                        nobis iusto, expedita possimus quasi, dicta sequi asperiores, dolore eos assumenda!
+                        Exercitationem voluptas dolorem vero unde possimus blanditiis, distinctio laudantium. Distinctio
+                        eos voluptatum aliquid, doloribus dicta nulla blanditiis, numquam exercitationem dignissimos
+                        dolorum repudiandae hic labore quibusdam. Praesentium?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/Main.js"></script>
+</body>
+
+</html>
